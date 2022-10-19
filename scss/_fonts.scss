@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Zen Kaku Gothic Antique';
+    src: local('Zen Kaku Gothic Antique Medium'), local('Zen-Kaku-Gothic-Antique-Medium'),
+        url('../fonts/ZenKakuGothicAntique-Medium.woff2') format('woff2'),
+        url('../fonts/ZenKakuGothicAntique-Medium.woff') format('woff'),
+        url('../fonts/ZenKakuGothicAntique-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Zen Kaku Gothic Antique';
+    src: local('Zen Kaku Gothic Antique Bold'), local('Zen-Kaku-Gothic-Antique-Bold'),
+        url('../fonts/ZenKakuGothicAntique-Bold.woff2') format('woff2'),
+        url('../fonts/ZenKakuGothicAntique-Bold.woff') format('woff'),
+        url('../fonts/ZenKakuGothicAntique-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @mixin bold {
+    font-family: 'Zen Kaku Gothic Antique Bold', sans-serif;
+  }
+
+  @mixin medium {
+    font-family: 'Zen Kaku Gothic Antique Medium', sans-serif;
+  }

@@ -9,29 +9,47 @@
 }
 
 .navbar {
-  margin: 3rem 10rem;
   width: auto;
+  vertical-align: middle;
 }
 .navbar .logo {
   display: inline-block;
   width: 200px;
   text-align: left;
-  font-family: "work-sans";
   font-weight: 700;
   font-size: 40px;
   line-height: 26px;
   color: #2947A9;
 }
+.navbar .logo img {
+  color: blue;
+  margin-right: 10px;
+  width: 40px;
+}
 .navbar__item {
   display: inline-block;
-  font-family: "work-sans";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 15px;
   margin: auto 10px;
   color: #14171F;
 }
 .navbar__item_glow {
   color: #F9995D;
+}
+
+@font-face {
+  font-family: "Zen Kaku Gothic Antique";
+  src: local("Zen Kaku Gothic Antique Medium"), local("Zen-Kaku-Gothic-Antique-Medium"), url("../fonts/ZenKakuGothicAntique-Medium.woff2") format("woff2"), url("../fonts/ZenKakuGothicAntique-Medium.woff") format("woff"), url("../fonts/ZenKakuGothicAntique-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Zen Kaku Gothic Antique";
+  src: local("Zen Kaku Gothic Antique Bold"), local("Zen-Kaku-Gothic-Antique-Bold"), url("../fonts/ZenKakuGothicAntique-Bold.woff2") format("woff2"), url("../fonts/ZenKakuGothicAntique-Bold.woff") format("woff"), url("../fonts/ZenKakuGothicAntique-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  font-family: "Zen Kaku Gothic Antique Bold", sans-serif;
 }
