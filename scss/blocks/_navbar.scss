@@ -1,0 +1,32 @@
+.navbar {
+    margin: 3rem 10rem;
+    width: auto;
+
+    .logo {
+        display: inline-block;
+        width: 200px;
+        text-align: left;
+        font-family: 'work-sans';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 26px;
+
+        color: #2947A9;
+    }
+
+
+    &__item {
+        display: inline-block;
+        font-family: 'work-sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 15px;
+        margin: auto 10px;
+        color: #14171F;
+
+        &_glow {
+            color: #F9995D;
+        }
+    }
+}

@@ -3,13 +3,9 @@
           box-sizing: border-box;
 }
 
-html {
-  font-size: 10px;
-}
-
-body {
-  width: 192rem;
-  height: 432rem;
+.container {
+  max-width: 1170px;
+  margin: auto;
 }
 
 .navbar {
@@ -22,7 +18,7 @@ body {
   text-align: left;
   font-family: "work-sans";
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 40px;
   line-height: 26px;
   color: #2947A9;
 }
@@ -31,9 +27,9 @@ body {
   font-family: "work-sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 20px;
   line-height: 15px;
-  margin: auto 1rem;
+  margin: auto 10px;
   color: #14171F;
 }
 .navbar__item_glow {
