@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 192rem;
+    height: 432rem;
+}
+
+
+
+.navbar {
+    margin: 3rem 10rem;
+    display: inline-block;
+    width: auto;
+
+    .logo {
+        display: inline-block;
+        width: 200px;
+        text-align: left;
+        font-family: 'work-sans';
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 26px;
+
+        color: #2947A9;
+    }
+
+    &__item {
+        display: inline-block;
+        font-family: 'work-sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 15px;
+        margin: auto 1rem;
+        color: #14171F;
+
+        &_glow {
+            color: #F9995D;
+        }
+    }
+}
